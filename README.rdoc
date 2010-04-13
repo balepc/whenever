@@ -33,6 +33,7 @@ This will create an initial "config/schedule.rb" file you.
     runner "MyModel.some_process"       
     rake "my:rake:task"                 
     command "/usr/bin/my_great_command"
+    rails_script "script/delayed_job start"
   end
 
   every 1.day, :at => '4:30 am' do 
